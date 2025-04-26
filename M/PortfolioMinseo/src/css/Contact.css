@@ -1,0 +1,59 @@
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.contact-item p {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.contact-details {
+  margin-left: 10px;
+}
+
+.contact-item a {
+  font-size: 1.1rem;
+  color: white;
+  text-decoration: none;
+}
+
+.contact-item a:hover {
+  text-decoration: underline;
+}
+
+/* 모바일 화면 스타일 */
+@media (max-width: 768px) {
+
+  .contact-info {
+    padding: 15px;
+  }
+
+  .contact-item {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 15px;
+  }
+
+  .contact-item p {
+    font-size: 0.9rem;
+  }
+
+  .contact-item a {
+    font-size: 0.9rem;
+  }
+
+  .contact-details {
+    margin-left: 0;
+    margin-top: 5px;
+  }
+}

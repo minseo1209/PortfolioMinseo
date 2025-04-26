@@ -1,0 +1,144 @@
+
+/* 기본 스타일 (PC 화면) */
+.container-fluid {
+  padding-bottom: 40px;
+  background-color: #111;
+}
+
+.profile-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.profile-image {
+  border-radius: 50%;
+  margin-right: 20px;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.profile-text {
+  text-align: left;
+  color: #fff;
+}
+
+.profile-text h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.profile-text p {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.profile-text .badge {
+  font-size: 1.1rem;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+
+.profile-text .mt-3 {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #ddd;
+}
+
+.skill {
+  text-align: left;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 40px;
+  color: #fff;
+}
+
+h5 {
+  font-size: 1.4rem;
+  font-weight: normal;
+  color: #ccc;
+}
+
+.badge-light {
+  padding: 0.3em;
+  color: #fff;
+  margin-left: 0.4em;
+  font-size: 14px;
+  border-radius: 0.3em;
+}
+
+.d-flex {
+  margin-top: 10px;
+}
+
+.main-content {
+  margin-left: 250px;
+  width: calc(100% - 250px);
+  padding: 20px;
+  color: #fff;
+  background-color: #111;
+}
+
+.SKillsAbility {
+  text-align: left;
+}
+
+/* 모바일 화면 스타일 */
+@media (max-width: 768px) {
+
+  /* 전체 컨테이너와 섹션들 */
+  .container-fluid {
+    padding-bottom: 20px;
+  }
+
+  .profile-section {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .profile-image {
+    margin-right: 0;
+    margin-bottom: 15px;
+    width: 120px;
+    height: 120px;
+  }
+
+  .profile-text h2 {
+    font-size: 1.8rem;
+  }
+
+  .profile-text p {
+    font-size: 1.1rem;
+  }
+
+  .profile-text .badge {
+    font-size: 1rem;
+  }
+
+  /* 스킬 섹션 */
+  .skill h3 {
+    font-size: 1.6rem;
+  }
+
+  .skill h5 {
+    font-size: 1.2rem;
+  }
+
+  .badge-light {
+    font-size: 12px;
+    padding: 0.2em;
+  }
+
+  /* 메인 콘텐츠 영역 */
+  .main-content {
+    margin-left: 0;
+    width: 100%;
+    padding: 15px;
+  }
+}
